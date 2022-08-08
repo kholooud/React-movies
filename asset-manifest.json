@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/kholooud/static/css/main.ac06cd2b.css",
-    "main.js": "/kholooud/static/js/main.10507973.js",
-    "static/media/fa-solid-900.ttf": "/kholooud/static/media/fa-solid-900.422cfe2813b03d900c10.ttf",
-    "static/media/fa-brands-400.ttf": "/kholooud/static/media/fa-brands-400.aff1938a5c48584fa92b.ttf",
-    "static/media/fa-solid-900.woff2": "/kholooud/static/media/fa-solid-900.64d495f582d4a1590a6c.woff2",
-    "static/media/fa-brands-400.woff2": "/kholooud/static/media/fa-brands-400.a914b121110f8b6e01c9.woff2",
-    "static/media/fa-regular-400.ttf": "/kholooud/static/media/fa-regular-400.625dca125b58060788da.ttf",
-    "static/media/fa-regular-400.woff2": "/kholooud/static/media/fa-regular-400.47074dec01b64a5db2c4.woff2",
-    "static/media/fa-v4compatibility.ttf": "/kholooud/static/media/fa-v4compatibility.ea8535110e0c42fd0046.ttf",
-    "static/media/fa-v4compatibility.woff2": "/kholooud/static/media/fa-v4compatibility.2ec4574b00d1d21ed0a3.woff2",
-    "static/media/logo.svg": "/kholooud/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/kholooud/index.html",
-    "main.ac06cd2b.css.map": "/kholooud/static/css/main.ac06cd2b.css.map",
-    "main.10507973.js.map": "/kholooud/static/js/main.10507973.js.map"
+    "main.css": "/React-movies/static/css/main.1de4ed7e.css",
+    "main.js": "/React-movies/static/js/main.c1279f5f.js",
+    "static/media/fa-solid-900.ttf": "/React-movies/static/media/fa-solid-900.422cfe2813b03d900c10.ttf",
+    "static/media/fa-brands-400.ttf": "/React-movies/static/media/fa-brands-400.aff1938a5c48584fa92b.ttf",
+    "static/media/fa-solid-900.woff2": "/React-movies/static/media/fa-solid-900.64d495f582d4a1590a6c.woff2",
+    "static/media/fa-brands-400.woff2": "/React-movies/static/media/fa-brands-400.a914b121110f8b6e01c9.woff2",
+    "static/media/fa-regular-400.ttf": "/React-movies/static/media/fa-regular-400.625dca125b58060788da.ttf",
+    "static/media/fa-regular-400.woff2": "/React-movies/static/media/fa-regular-400.47074dec01b64a5db2c4.woff2",
+    "static/media/fa-v4compatibility.ttf": "/React-movies/static/media/fa-v4compatibility.ea8535110e0c42fd0046.ttf",
+    "static/media/fa-v4compatibility.woff2": "/React-movies/static/media/fa-v4compatibility.2ec4574b00d1d21ed0a3.woff2",
+    "static/media/logo.svg": "/React-movies/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/React-movies/index.html",
+    "main.1de4ed7e.css.map": "/React-movies/static/css/main.1de4ed7e.css.map",
+    "main.c1279f5f.js.map": "/React-movies/static/js/main.c1279f5f.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac06cd2b.css",
-    "static/js/main.10507973.js"
+    "static/css/main.1de4ed7e.css",
+    "static/js/main.c1279f5f.js"
   ]
 }
