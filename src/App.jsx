@@ -51,6 +51,7 @@ function App() {
         <Routes>
             <Route path='/' element={<ProtectedRoute><Home /></ProtectedRoute>}></Route>
             <Route path='Home' element={<ProtectedRoute><Home /></ProtectedRoute>}></Route>
+            <Route path='React-movies' element={<ProtectedRoute><Home /></ProtectedRoute>}></Route>
             <Route path='movies' element={<ProtectedRoute><Movies /></ProtectedRoute>}></Route>
             <Route path='details' element={<ProtectedRoute><Details /></ProtectedRoute>}></Route>
             <Route path='tvshows' element={<ProtectedRoute><Tvshows /></ProtectedRoute>}></Route>
