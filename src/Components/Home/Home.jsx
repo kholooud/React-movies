@@ -79,7 +79,7 @@ export default function Home() {
       <div className="welcome">
         <div className={`${styles.border} my-4 w-25`}></div>
         <h2>Trending</h2>
-        <h2>Person</h2>
+        <h2>People</h2>
         <h2>To Watch Now</h2>
         <p className='text-muted'>Most Watched people By Days</p>
         <div className={`${styles.border} my-4 w-75`}></div>
