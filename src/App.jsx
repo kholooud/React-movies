@@ -15,6 +15,7 @@ import Notfound from './Components/Notfound/Notfound';
 import { Routes , Route,useNavigate , Navigate } from 'react-router-dom';
 import jwtDecode from 'jwt-decode';
 import { useState ,useEffect } from 'react';
+import TrendingContextProvider from './Store';
 
 
 function App() {
@@ -48,14 +49,15 @@ function App() {
     <div className="App">
       <Navbar userData={userData} logout={logout} />
       <div className="container">
-        <Routes>
+      <TrendingContextProvider>
+          <Routes>
             <Route path='/' element={<ProtectedRoute><Home /></ProtectedRoute>}></Route>
             <Route path='Home' element={<ProtectedRoute><Home /></ProtectedRoute>}></Route>
             <Route path='React-movies' element={<ProtectedRoute><Home /></ProtectedRoute>}></Route>
             <Route path='movies' element={<ProtectedRoute><Movies /></ProtectedRoute>}></Route>
-            <Route path='details' element={<ProtectedRoute><Details /></ProtectedRoute>}></Route>
             <Route path='tvshows' element={<ProtectedRoute><Tvshows /></ProtectedRoute>}></Route>
             <Route path='people' element={<ProtectedRoute><People /></ProtectedRoute>}></Route>
+            <Route path='details' element={<ProtectedRoute><Details /></ProtectedRoute>}></Route>
             <Route path='about' element={<About />}></Route>
             <Route path='network' element={<Network />}></Route>
             <Route path='login' element={<Login saveUserData={saveUserData} />}></Route>
@@ -63,7 +65,8 @@ function App() {
             <Route path='logout' element={<Logout />}></Route>
             <Route path='notfound' element={<Notfound />}></Route>
             <Route path='*' element={<Notfound />}></Route>
-        </Routes>
+          </Routes>
+      </TrendingContextProvider>
       </div>
     </div>
   );

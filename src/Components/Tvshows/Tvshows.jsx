@@ -1,25 +1,12 @@
-import React , {useState,useEffect} from 'react';
-import axios from 'axios';
+import React , { useContext} from 'react';
 import styles from './TvShows.module.css';
 import {useNavigate} from 'react-router-dom';
+import { trendingContext } from '../../Store';
 
 
 
 export default function Tvshows() {
-  let [trendingTvShows,settrendingTvShows] = useState([]);
-  let baseImageUrl = 'https://image.tmdb.org/t/p/original/';
-
-
-  async function getTrendingItems(mediaType, callback){
-    let {data} = await axios.get(`https://api.themoviedb.org/3/trending/${mediaType}/day?api_key=eba8b9a7199efdcb0ca1f96879b83c44`);
-    callback(data.results);
-  }
-
-
-  useEffect(()=>{
-  getTrendingItems('tv' ,settrendingTvShows);
-}
-  ,[])
+  let {trendingTvShows , baseImageUrl} = useContext(trendingContext);
 
   let navigate = useNavigate();
 
