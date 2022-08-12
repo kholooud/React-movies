@@ -33,7 +33,7 @@ export default function Navbar(props) {
           </li>
         </ul>:''}
 
-        <ul className="navbar-nav ms-auto">
+        <ul className={`${styles.rightSection} navbar-nav ms-auto`}>
           <div className="social-icon align-self-center">
             <i className='fab fa-facebook px-2'></i>
             <i className='fab fa-spotify px-2'></i>
