@@ -51,18 +51,18 @@ function App() {
       <div className="container">
       <TrendingContextProvider>
           <Routes>
-            <Route path='React-movies/' element={<ProtectedRoute><Home /></ProtectedRoute>}></Route>
-            <Route path='React-movies/Home' element={<ProtectedRoute><Home /></ProtectedRoute>}></Route>
-            <Route path='React-movies/movies' element={<ProtectedRoute><Movies /></ProtectedRoute>}></Route>
-            <Route path='React-movies/tvshows' element={<ProtectedRoute><Tvshows /></ProtectedRoute>}></Route>
-            <Route path='React-movies/people' element={<ProtectedRoute><People /></ProtectedRoute>}></Route>
-            <Route path='React-movies/details' element={<ProtectedRoute><Details /></ProtectedRoute>}></Route>
-            <Route path='React-movies/about' element={<About />}></Route>
-            <Route path='React-movies/network' element={<Network />}></Route>
-            <Route path='React-movies/login' element={<Login saveUserData={saveUserData} />}></Route>
-            <Route path='React-movies/register' element={<Register />}></Route>
-            <Route path='React-movies/logout' element={<Logout />}></Route>
-            <Route path='React-movies/notfound' element={<Notfound />}></Route>
+            <Route path='/' element={<ProtectedRoute><Home /></ProtectedRoute>}></Route>
+            <Route path='/Home' element={<ProtectedRoute><Home /></ProtectedRoute>}></Route>
+            <Route path='/movies' element={<ProtectedRoute><Movies /></ProtectedRoute>}></Route>
+            <Route path='/tvshows' element={<ProtectedRoute><Tvshows /></ProtectedRoute>}></Route>
+            <Route path='/people' element={<ProtectedRoute><People /></ProtectedRoute>}></Route>
+            <Route path='/details' element={<ProtectedRoute><Details /></ProtectedRoute>}></Route>
+            <Route path='/about' element={<About />}></Route>
+            <Route path='/network' element={<Network />}></Route>
+            <Route path='/login' element={<Login saveUserData={saveUserData} />}></Route>
+            <Route path='/register' element={<Register />}></Route>
+            <Route path='/logout' element={<Logout />}></Route>
+            <Route path='/notfound' element={<Notfound />}></Route>
             <Route path='*' element={<Notfound />}></Route>
           </Routes>
       </TrendingContextProvider>
